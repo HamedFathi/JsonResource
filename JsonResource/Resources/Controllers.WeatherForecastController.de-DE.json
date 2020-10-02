@@ -1,0 +1,5 @@
+﻿{
+  "GreetingMessage": "Hallo {0}",
+  "SayHello": "Hallo",
+  "Name": "'{0}' ist erforderlich"
+}
