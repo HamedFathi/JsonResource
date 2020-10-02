@@ -9,9 +9,5 @@
     <PackageReference Include="My.Extensions.Localization.Json" Version="2.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-
 
 </Project>
