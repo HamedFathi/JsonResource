@@ -48,10 +48,10 @@ namespace JsonResource
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRequestLocalization(GetLocalizationOptions());
-
-
+            //app.UseRequestLocalization("en-US", "de-DE", "fr-FR", "en-GB");
             app.UseRouting();
+
+           app.UseRequestLocalization(GetLocalizationOptions());
 
             app.UseAuthorization();
 

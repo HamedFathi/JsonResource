@@ -43,6 +43,8 @@ namespace JsonResource.Controllers
         [HttpGet("{name}")]
         public string Get(string name)
         {
+            var t = _localizer["GreetingMessage"].SearchedLocation;
+            Console.WriteLine(t);
 
             return _localizer[string.Format(_localizer["GreetingMessage"], name)];
 
@@ -51,7 +53,9 @@ namespace JsonResource.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Person person)
         {
-            if(!ModelState.IsValid)
+            var t = _localizer["SayHello"].SearchedLocation;
+            Console.WriteLine(t);
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }

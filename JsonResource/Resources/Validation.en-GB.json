@@ -1,5 +1,10 @@
 ﻿{
   "GreetingMessage": "Hello {0}",
   "SayHello": "Hello",
-  "Name": "'{0}' is required"
+  "Name": "'{0}' is required",
+  "The Email field is not a valid e-mail address.": "The Email field is not a valid e-mail address.",
+  "The Email field is required.": "The Email field is required.",
+  "The password and confirmation password do not match.": "The password and confirmation password do not match.",
+  "The Password field is required.": "The Password field is required.",
+  "The {0} must be at least {2} characters long.": "The {0} must be at least {2} characters long."
 }
